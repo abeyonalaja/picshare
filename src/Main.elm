@@ -1,12 +1,21 @@
 module Main exposing (main)
 
-import Browser
+import Browser exposing (Document, UrlRequest)
+import Browser.Navigation as Navigation
 import Html exposing (Html, a, div, h1, i, text)
 import Html.Attributes exposing (class)
+import Routes
+import Url exposing (Url)
 
 
 
 ---- MODEL ----
+
+
+type Page
+    = PublicFeed
+    | Account
+    | NotFound
 
 
 type alias Model =
