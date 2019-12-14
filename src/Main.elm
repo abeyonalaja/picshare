@@ -30,7 +30,7 @@ init () =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 [] [ text "Single Page Applications" ] ]
+        [ h1 [] [ text "Single Page Applications." ] ]
 
 
 
